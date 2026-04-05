@@ -29,7 +29,7 @@ const About = () => {
               Passionate Computer Science Student & <span className="text-primary italic">AI Enthusiast</span>
             </h3>
             <p className="text-gray-400 text-lg leading-relaxed">
-              I am a 5th-semester B.Tech student at Adani University, specializing in Artificial Intelligence and Machine Learning. 
+              I am a 6th-semester B.Tech student at Adani University, specializing in Artificial Intelligence and Machine Learning. 
               My journey is driven by a deep fascination with how AI can transform the world, from predictive analytics 
               to full-stack web solutions.
             </p>
