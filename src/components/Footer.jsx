@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
           
           <p className="text-gray-500 text-sm flex items-center gap-2">
-            Built with <Heart size={14} className="text-red-500 animate-pulse" /> by Mox Patel © {currentYear}
+            Built with by Mox Patel © {currentYear}
           </p>
         </div>
       </div>
