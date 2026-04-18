@@ -27,7 +27,7 @@ const Skills = () => {
     {
       title: "Tools & Clouds",
       icon: <Box className="text-primary" />,
-      skills: ["Git/GitHub", "AWS (EC2, S3)", "VS Code", "Jupyter"],
+      skills: ["Git/GitHub", "AWS (EC2, S3)", "VS Code", "Jupyter Notebook","PowerBi"],
     },
     {
       title: "Core Concepts",

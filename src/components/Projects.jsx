@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Code, Terminal, ShieldCheck, Search } from 'lucide-react';
+import { ExternalLink, Code, Terminal, ShieldCheck, Search, BarChart } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
@@ -27,6 +27,21 @@ const Projects = () => {
         "Random Forest & SVM Models",
         "Data Preprocessing",
         "Performance Evaluation (ROC/AUC)"
+      ],
+      github: "https://github.com/moxpatel1",
+    },
+    {
+      title: "Bank Customer Segmentation and Transaction Analysis",
+      description: "Interactive Power BI dashboard designed to analyze customer segmentation and banking transactions. Provides insights into customer demographics, transaction behavior, and financial trends using connected datasets.",
+      tech: ["Power BI", "Data Modeling", "DAX", "Excel/CSV"],
+      icon: <BarChart className="text-primary w-12 h-12" />,
+      features: [
+        "Customer Segmentation by Age, Gender, Region",
+        "Debit vs Credit Transaction Analysis",
+        "Monthly Transaction Trends",
+        "Top 10 Customers by Transaction Amount",
+        "Interactive Filters & Slicers",
+        "KPI Metrics Dashboard"
       ],
       github: "https://github.com/moxpatel1",
     }
