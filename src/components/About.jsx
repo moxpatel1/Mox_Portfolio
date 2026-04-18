@@ -29,12 +29,12 @@ const About = () => {
               Passionate Computer Science Student & <span className="text-primary italic">AI Enthusiast</span>
             </h3>
             <p className="text-gray-400 text-lg leading-relaxed">
-              I am a 6th-semester B.Tech student at Adani University, specializing in Artificial Intelligence and Machine Learning. 
-              My journey is driven by a deep fascination with how AI can transform the world, from predictive analytics 
+              I am a 6th-semester B.Tech student at Adani University, specializing in Artificial Intelligence and Machine Learning.
+              My journey is driven by a deep fascination with how AI can transform the world, from predictive analytics
               to full-stack web solutions.
             </p>
             <p className="text-gray-400 text-lg leading-relaxed">
-              I actively leverage AI-assisted development tools to accelerate coding, debugging, and software design 
+              I actively leverage AI-assisted development tools to accelerate coding, debugging, and software design
               while maintaining strong problem-solving and programming fundamentals.
             </p>
 
@@ -72,7 +72,7 @@ const About = () => {
                   <p className="text-sm text-gray-400 font-medium">Current GPA</p>
                 </div>
                 <div className="text-center p-4 rounded-xl bg-white/5 border border-white/10">
-                  <h4 className="text-3xl font-bold text-secondary mb-1">10+</h4>
+                  <h4 className="text-3xl font-bold text-secondary mb-1">6+</h4>
                   <p className="text-sm text-gray-400 font-medium">Projects Done</p>
                 </div>
                 <div className="text-center p-4 rounded-xl bg-white/5 border border-white/10">
@@ -84,15 +84,15 @@ const About = () => {
                   <p className="text-sm text-gray-400 font-medium">Years Coding</p>
                 </div>
               </div>
-              
-              <div className="mt-8 flex items-center justify-between p-4 rounded-xl border border-primary/20 bg-primary/5">
+
+              {/* <div className="mt-8 flex items-center justify-between p-4 rounded-xl border border-primary/20 bg-primary/5">
                 <div className="flex items-center gap-3">
                   <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                  <span className="text-sm font-medium">Actively learning TensorFlow & AWS</span>
+                  <span className="text-sm font-medium"></span>
                 </div>
-              </div>
+              </div> */}
             </div>
-            
+
             {/* Background blur effect */}
             <div className="absolute inset-0 bg-primary/20 blur-[100px] -z-10 rounded-full scale-75"></div>
           </motion.div>
