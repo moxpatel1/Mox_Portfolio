@@ -17,12 +17,12 @@ const Skills = () => {
     {
       title: "ML Libraries",
       icon: <Cpu className="text-primary" />,
-      skills: ["TensorFlow", "Scikit-learn", "NumPy", "Pandas"],
+      skills: ["NumPy", "Pandas","Matplotlib", "Seaborn","Scikit-learn","TensorFlow"],
     },
     {
       title: "Data Analysis",
       icon: <PieChart className="text-secondary" />,
-      skills: ["Matplotlib", "Seaborn", "Data Cleaning", "Visualization"],
+      skills: ["Data Collection", "Data Cleaning", "Data Processing", "Data Analysis", "Data Visualization", "Insights & Decision Making"],
     },
     {
       title: "Tools & Clouds",
