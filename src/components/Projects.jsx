@@ -6,7 +6,7 @@ const Projects = () => {
   const projects = [
     {
       title: "EduPath – Full Stack Rank Predictor",
-      description: "A full-stack application designed to help students predict engineering college admissions based on ACPC ranks. Features responsive UI and integrated database for college filtering.",
+      description: "EduPath is a web application designed to help students estimate their chances of getting into engineering colleges based on ACPC ranks.It allows users to input their rank, category, and preferences to receive personalized college suggestions.The system analyzes past cutoff trends to provide accurate and practical predictions.It includes a smart filtering feature to narrow down colleges based on user criteria.Overall, it simplifies the admission decision process by turning complex data into clear insights.",
       tech: ["React.js", "Node.js", "MySQL", "Tailwind CSS"],
       icon: <Search className="text-secondary w-12 h-12" />,
       features: [
@@ -18,15 +18,15 @@ const Projects = () => {
       github: "https://github.com/moxpatel1",
     },
     {
-      title: "Intrusion Detection System",
-      description: "Machine Learning models built to classify normal and malicious network traffic. Achieved high accuracy in detecting threats through network-based data analysis.",
-      tech: ["Python", "Scikit-learn", "Pandas", "Matplotlib"],
+      title: "CampusBot AI-Powered College Assistant",
+      tech: [ "Python", "Flask", "PostgreSQL", "JavaScript", "GroqAPI"],
       icon: <ShieldCheck className="text-primary w-12 h-12" />,
       features: [
-        "93–95% Detection Accuracy",
-        "Random Forest & SVM Models",
-        "Data Preprocessing",
-        "Performance Evaluation (ROC/AUC)"
+        " Developed a full-stack college management platform featuring role-based UIs for students, faculty, and admins.",
+        " Built a conversational AI chatbot using Groq Llama-3.3 LLM to provide instant, 24/7 answers to campus related queries.",
+        "Designed and implemented RESTful APIs with Flask and created optimized PostgreSQL schemas using SQLAlchemy.",
+        "Created an automated real-time notification system for academic updates, assignments, and placement drives.",
+        " Simplified campus operations by centralizing attendance tracking, timetables, and support tickets into a unified portal."
       ],
       github: "https://github.com/moxpatel1",
     },
