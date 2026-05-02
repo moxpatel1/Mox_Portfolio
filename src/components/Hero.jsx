@@ -4,6 +4,15 @@ import { motion } from 'framer-motion';
 import { Download, ChevronRight } from 'lucide-react';
 
 const Hero = () => {
+  const handleDownloadResume = () => {
+    const link = document.createElement('a');
+    link.href = '/Mox_Resume.pdf';
+    link.download = 'Mox_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section id="home" className="min-h-screen flex items-center justify-center pt-20 px-4">
       <div className="max-w-7xl mx-auto text-center">
@@ -61,7 +70,7 @@ const Hero = () => {
             <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </a>
           
-          <button className="flex items-center gap-2 px-6 py-3 rounded-full border border-white/20 hover:bg-white/5 transition-all duration-300 font-semibold group">
+          <button onClick={handleDownloadResume} className="flex items-center gap-2 px-6 py-3 rounded-full border border-white/20 hover:bg-white/5 transition-all duration-300 font-semibold group cursor-pointer">
             <Download className="w-5 h-5 text-secondary group-hover:-translate-y-1 transition-transform" />
             Download Resume
           </button>
