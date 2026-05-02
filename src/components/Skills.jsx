@@ -3,38 +3,94 @@ import { motion } from 'framer-motion';
 import { Code2, Globe, Box, Database, Cpu, PieChart } from 'lucide-react';
 
 const Skills = () => {
-  const skillCategories = [
-    {
-      title: "Programming",
-      icon: <Code2 className="text-primary" />,
-      skills: ["Python", "JavaScript", "C"],
-    },
-    {
-      title: "Web Development",
-      icon: <Globe className="text-secondary" />,
-      skills: ["React.js", "Node.js", "Tailwind CSS", "HTML/CSS"],
-    },
-    {
-      title: "ML Libraries",
-      icon: <Cpu className="text-primary" />,
-      skills: ["NumPy", "Pandas","Matplotlib", "Seaborn","Scikit-learn","TensorFlow"],
-    },
-    {
-      title: "Data Analysis",
-      icon: <PieChart className="text-secondary" />,
-      skills: ["Data Collection", "Data Cleaning", "Data Processing", "Data Analysis", "Data Visualization", "Insights & Decision Making"],
-    },
-    {
-      title: "Tools & Clouds",
-      icon: <Box className="text-primary" />,
-      skills: ["Git/GitHub", "AWS (EC2, S3)", "VS Code", "Jupyter Notebook","PowerBi"],
-    },
-    {
-      title: "Core Concepts",
-      icon: <Database className="text-secondary" />,
-      skills: ["DSA", "DBMS", "Model Evaluation", "Neural Networks"],
-    },
-  ];
+const skillCategories = [
+  {
+    title: "Programming",
+    icon: <Code2 className="text-primary" />,
+    skills: ["Python", "JavaScript", "C"],
+  },
+  {
+    title: "Web Development",
+    icon: <Globe className="text-secondary" />,
+    skills: [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "FastAPI",
+      "Flask",
+    ],
+  },
+  {
+    title: "Database & Cloud",
+    icon: <Database className="text-secondary" />,
+    skills: [
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+      "Firebase",
+      "AWS",
+      "Vercel",
+      "Render",
+    ],
+  },
+  {
+    title: "Libraries",
+    icon: <Cpu className="text-primary" />,
+    skills: [
+      "NumPy",
+      "Pandas",
+      "Matplotlib",
+      "Seaborn",
+      "Scikit-learn",
+      "TensorFlow",
+      "PyTorch",
+    ],
+  },
+  {
+    title: "AI & Machine Learning",
+    icon: <PieChart className="text-secondary" />,
+    skills: [
+      "Machine Learning Pipeline",
+      "Deep Learning",
+      "Neural Networks",
+      "Natural Language Processing (NLP)",
+      "Generative AI",
+      "LLMs",
+      "Prompt Engineering",
+      "RAG",
+      "AI Agents",
+      "Agentic AI",
+      "Embeddings",
+      "Vector Databases",
+      "LangChain",
+      "LangGraph",
+      "Multi-Modal AI",
+    ],
+  },
+  {
+    title: "Tools",
+    icon: <Box className="text-primary" />,
+    skills: [
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Jupyter Notebook",
+      "Docker",
+      "Ollama",
+      "Hugging Face",
+      "Redis",
+      "Power BI",
+    ],
+  },
+  {
+    title: "Core Concepts",
+    icon: <Database className="text-secondary" />,
+    skills: ["Data Structures & Algorithms", "DBMS"],
+  },
+];
 
   const containerVariants = {
     hidden: { opacity: 0 },
