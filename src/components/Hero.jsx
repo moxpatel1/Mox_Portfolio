@@ -4,13 +4,26 @@ import { motion } from 'framer-motion';
 import { Download, ChevronRight } from 'lucide-react';
 
 const Hero = () => {
-  const handleDownloadResume = () => {
-    const link = document.createElement('a');
-    link.href = '/Mox_Resume.pdf';
-    link.download = 'Mox_Resume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+  const handleDownloadResume = async () => {
+    try {
+      const response = await fetch('/Mox_Resume.pdf');
+      if (!response.ok) {
+        alert('Resume file not found. Please contact the developer.');
+        return;
+      }
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'Mox_Patel_Resume.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error('Error downloading resume:', error);
+      alert('Failed to download resume. Please try again.');
+    }
   };
 
   return (
