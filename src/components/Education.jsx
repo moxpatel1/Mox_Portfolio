@@ -9,7 +9,7 @@ const Education = () => {
       institution: "Adani University, Ahmedabad, Gujarat",
       duration: "July 2023 – August 2027",
       status: "Current (5th semester)",
-      grade: "GPA: 7.30 | CGPA: 6.4 / 10",
+      grade: "GPA: 7.30 | CGPA: 7.1 / 10",
       // description: "Specializing in Artificial Intelligence and Machine Learning. Core concepts of Data Structures, Algorithms, DBMS, and Deep Learning.",
       icon: <BookOpen className="text-primary" />,
     }
